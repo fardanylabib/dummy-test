@@ -1,0 +1,311 @@
+{
+    "title": "test-4",
+    "selectorAttribute": "mctest",
+    "timeout": 30000,
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1304,
+            "height": 659,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://simpbl.poltera.ac.id/",
+                    "title": "SIMPBL Poltera"
+                }
+            ],
+            "url": "https://simpbl.poltera.ac.id/"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-4 > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div[1]/div/form/div[1]/input"
+                ],
+                [
+                    "pierce/div.mb-4 > input"
+                ],
+                [
+                    "aria/Masukkan username"
+                ]
+            ],
+            "offsetX": 198.34375,
+            "offsetY": 14.4375
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-4 > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div[1]/div/form/div[1]/input"
+                ],
+                [
+                    "pierce/div.mb-4 > input"
+                ],
+                [
+                    "aria/Masukkan username"
+                ]
+            ],
+            "value": "manager1"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#root > div.flex"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div[1]"
+                ],
+                [
+                    "pierce/#root > div.flex"
+                ]
+            ],
+            "offsetX": 357,
+            "offsetY": 416
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-10 input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div[1]/div/form/div[2]/div[2]/input"
+                ],
+                [
+                    "pierce/div.mb-10 input"
+                ],
+                [
+                    "aria/Masukkan password"
+                ],
+                [
+                    "text/cfaea32d215bfb1c34f5a732"
+                ]
+            ],
+            "value": "poltera123jya"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "path"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div[1]/div/form/div[2]/div[2]/div/div/svg/path"
+                ],
+                [
+                    "pierce/path"
+                ]
+            ],
+            "offsetX": 9.67181396484375,
+            "offsetY": 8.437591552734375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-10 input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div[1]/div/form/div[2]/div[2]/input"
+                ],
+                [
+                    "pierce/div.mb-10 input"
+                ],
+                [
+                    "aria/Masukkan password"
+                ],
+                [
+                    "text/poltera123jya"
+                ]
+            ],
+            "offsetX": 101.34375,
+            "offsetY": 20.4375
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-10 input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div[1]/div/form/div[2]/div[2]/input"
+                ],
+                [
+                    "pierce/div.mb-10 input"
+                ],
+                [
+                    "aria/Masukkan password"
+                ],
+                [
+                    "text/cfaea32d215bfb1c34f5a732"
+                ]
+            ],
+            "value": "poltera123jaya"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#root > div.flex"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div[1]"
+                ],
+                [
+                    "pierce/#root > div.flex"
+                ]
+            ],
+            "offsetX": 914,
+            "offsetY": 438
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button > span"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div[1]/div/form/button/span"
+                ],
+                [
+                    "pierce/button > span"
+                ],
+                [
+                    "aria/Login",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "text/Login"
+                ]
+            ],
+            "offsetX": 158.34375,
+            "offsetY": 14.4375
+        },
+        {
+            "type": "waitForElement",
+            "target": "main",
+            "selectors": [
+                "div.relative > div > div > div.flex-grow > div:nth-of-type(2) p",
+                "xpath///*[@id=\"root\"]/div[1]/div[1]/div/div/div[2]/div[2]/div/div/p",
+                "pierce/div.relative > div > div > div.flex-grow > div:nth-of-type(2) p"
+            ],
+            "count": 1
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "div.relative > div > div > div.flex-grow > div:nth-of-type(2) p",
+                "xpath///*[@id=\"root\"]/div[1]/div[1]/div/div/div[2]/div[2]/div/div/p",
+                "pierce/div.relative > div > div > div.flex-grow > div:nth-of-type(2) p"
+            ],
+            "offsetX": 86,
+            "offsetY": 9,
+            "duration": 500
+        },
+        {
+            "type": "waitForElement",
+            "target": "main",
+            "selectors": [
+                "div.col-span-2 > div.flex > span",
+                "xpath///*[@id=\"root\"]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[1]/span",
+                "pierce/div.col-span-2 > div.flex > span"
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "div.col-span-2 div.css-ackcql",
+                "xpath///*[@id=\"root\"]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div/div[1]/div[2]",
+                "pierce/div.col-span-2 div.css-ackcql"
+            ],
+            "offsetX": 259,
+            "offsetY": 14
+        },
+        {
+            "type": "waitForElement",
+            "target": "main",
+            "selectors": [
+                "#react-select-2-option-0",
+                "xpath///*[@id=\"react-select-2-option-0\"]",
+                "pierce/#react-select-2-option-0"
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#react-select-2-option-0",
+                "xpath///*[@id=\"react-select-2-option-0\"]",
+                "pierce/#react-select-2-option-0"
+            ],
+            "offsetX": 128,
+            "offsetY": 19
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "div.grid > div:nth-of-type(3) div.css-ackcql",
+                "xpath///*[@id=\"root\"]/div[1]/div[3]/div[2]/div[1]/div[1]/div[3]/div[2]/div/div[1]/div[2]",
+                "pierce/div.grid > div:nth-of-type(3) div.css-ackcql"
+            ],
+            "offsetX": 77.34375,
+            "offsetY": 3,
+            "duration": 500
+        },
+        {
+            "type": "waitForElement",
+            "selectors": [
+                "#react-select-4-option-0",
+                "xpath///*[@id=\"react-select-4-option-0\"]",
+                "pierce/#react-select-4-option-0"
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#react-select-4-option-0",
+                "xpath///*[@id=\"react-select-4-option-0\"]",
+                "pierce/#react-select-4-option-0"
+            ],
+            "offsetX": 25.34375,
+            "offsetY": 24
+        },
+        {
+            "type": "waitForElement",
+            "target": "main",
+            "selectors": [
+                "[mctest='fullname-0']",
+                "xpath///*[@mctest=\"fullname-0\"]",
+                "pierce/[mctest='fullname-0']",
+                "text/Afkar Dzakirullah"
+            ]
+        }
+    ]
+}

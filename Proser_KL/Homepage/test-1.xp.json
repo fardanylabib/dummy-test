@@ -1,0 +1,20 @@
+[
+	{
+		"selectors": [
+			"[mctest='page-label']",
+			"xpath///*[@mctest=\"page-label\"]"
+		],
+		"value":{
+			"eq": "Page Title"
+		}
+	},
+	{
+		"selectors": [
+			"[mctest='page-value']",
+			"xpath///*[@mctest=\"page-value\"]"
+		],
+		"value":{
+			"eq": "Test Meracau"
+		}
+	}
+]	

@@ -1,0 +1,212 @@
+{
+    "title": "test-1",
+    "selectorAttribute": "mctest",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1287,
+            "height": 659,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://meracau.com/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://meracau.com/",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.pt-5 button"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/div/div[2]/div/div[1]/div[2]/button"
+                ],
+                [
+                    "pierce/div.pt-5 button"
+                ],
+                [
+                    "aria/Create a Page"
+                ],
+                [
+                    "text/Create a Page"
+                ]
+            ],
+            "offsetY": 11.65625,
+            "offsetX": 281.5
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "T",
+            "selectors": [
+                [
+                    "[mctest='page-value']"
+                ],
+                [
+                    "xpath///*[@mctest=\"page-value\"]"
+                ],
+                [
+                    "pierce/[mctest='page-value']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "t",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Te",
+            "selectors": [
+                [
+                    "[mctest='page-value']"
+                ],
+                [
+                    "xpath///*[@mctest=\"page-value\"]"
+                ],
+                [
+                    "pierce/[mctest='page-value']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Test ",
+            "selectors": [
+                [
+                    "[mctest='page-value']"
+                ],
+                [
+                    "xpath///*[@mctest=\"page-value\"]"
+                ],
+                [
+                    "pierce/[mctest='page-value']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Test M",
+            "selectors": [
+                [
+                    "[mctest='page-value']"
+                ],
+                [
+                    "xpath///*[@mctest=\"page-value\"]"
+                ],
+                [
+                    "pierce/[mctest='page-value']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "m",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Test Me",
+            "selectors": [
+                [
+                    "[mctest='page-value']"
+                ],
+                [
+                    "xpath///*[@mctest=\"page-value\"]"
+                ],
+                [
+                    "pierce/[mctest='page-value']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Test Meracau",
+            "selectors": [
+                [
+                    "[mctest='page-value']"
+                ],
+                [
+                    "xpath///*[@mctest=\"page-value\"]"
+                ],
+                [
+                    "pierce/[mctest='page-value']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#scrolltop"
+                ],
+                [
+                    "xpath///*[@id=\"scrolltop\"]"
+                ],
+                [
+                    "pierce/#scrolltop"
+                ]
+            ],
+            "offsetY": 209.5,
+            "offsetX": 210
+        }
+    ]
+}

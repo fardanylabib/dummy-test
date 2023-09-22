@@ -1,0 +1,18 @@
+[
+	{
+		"selectors": [
+			"xpath///*[@mctest=\"page-label\"]"
+		],
+		"value":{
+			"eq": "Page Title"
+		},
+	},
+	{
+		"selectors": [
+			"xpath///*[@mctest=\"page-value\"]",
+		],
+		"value":{
+			"eq": "halo kawan",
+		}
+	}
+]	

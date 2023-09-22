@@ -1,0 +1,10 @@
+[
+	{
+		"selectors": [
+			"xpath///*[@mctest=\"fullname-0\"]",
+		],
+		"value":{
+			"eq": "Cristiano Ronaldowati"
+		},
+	}
+]	

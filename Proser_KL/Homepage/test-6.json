@@ -1,0 +1,406 @@
+{
+    "title": "test-6",
+    "selectorAttribute": "mctest",
+    "timeout": 30000,
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1304,
+            "height": 659,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://simpbl.poltera.ac.id/students",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://simpbl.poltera.ac.id/students",
+                    "title": "SIMPBL Poltera"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.flex > div.flex > div.flex-grow > div.flex > div.flex-grow"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div[1]/div[3]/div[2]/div[1]/div[2]"
+                ],
+                [
+                    "pierce/div.flex > div.flex > div.flex-grow > div.flex > div.flex-grow"
+                ]
+            ],
+            "offsetY": 329,
+            "offsetX": 920
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.flex > div.flex div.fixed path"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div[1]/div[3]/div[2]/div[2]/div/svg/path"
+                ],
+                [
+                    "pierce/div.flex > div.flex div.fixed path"
+                ]
+            ],
+            "offsetY": 8,
+            "offsetX": 12
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div[1]/div[3]/div[2]/div[1]/div[3]/div[2]/div[3]/form/div[1]/div[1]/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(1) > input"
+                ],
+                [
+                    "aria/Student full name"
+                ]
+            ],
+            "offsetY": 23,
+            "offsetX": 37.65625
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "T",
+            "selectors": [
+                [
+                    "div:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div[1]/div[3]/div[2]/div[1]/div[3]/div[2]/div[3]/form/div[1]/div[1]/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(1) > input"
+                ],
+                [
+                    "aria/Student full name"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "t",
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Tony ",
+            "selectors": [
+                [
+                    "div:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div[1]/div[3]/div[2]/div[1]/div[3]/div[2]/div[3]/form/div[1]/div[1]/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(1) > input"
+                ],
+                [
+                    "aria/Student full name"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Tony S",
+            "selectors": [
+                [
+                    "div:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div[1]/div[3]/div[2]/div[1]/div[3]/div[2]/div[3]/form/div[1]/div[1]/input"
+                ],
+                [
+                    "pierce/div:nth-of-type(1) > input"
+                ],
+                [
+                    "aria/Student full name"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "CapsLock"
+        },
+        {
+            "type": "keyUp",
+            "key": "s",
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "CapsLock",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "div:nth-of-type(1) > input",
+                "xpath///*[@id=\"root\"]/div[1]/div[3]/div[2]/div[1]/div[3]/div[2]/div[3]/form/div[1]/div[1]/input",
+                "pierce/div:nth-of-type(1) > input",
+                "aria/Student full name"
+            ],
+            "value": "Cristiano Ronaldowati"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "form > div:nth-of-type(1) > div:nth-of-type(2) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div[1]/div[3]/div[2]/div[1]/div[3]/div[2]/div[3]/form/div[1]/div[2]/input"
+                ],
+                [
+                    "pierce/form > div:nth-of-type(1) > div:nth-of-type(2) > input"
+                ],
+                [
+                    "aria/Student number"
+                ]
+            ],
+            "offsetY": 20,
+            "offsetX": 75.65625
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "form > div:nth-of-type(1) > div:nth-of-type(2) > input",
+                "xpath///*[@id=\"root\"]/div[1]/div[3]/div[2]/div[1]/div[3]/div[2]/div[3]/form/div[1]/div[2]/input",
+                "pierce/form > div:nth-of-type(1) > div:nth-of-type(2) > input",
+                "aria/Student number"
+            ],
+            "value": "889897979798"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "form > div:nth-of-type(1) > div:nth-of-type(3) div.css-ackcql",
+                "xpath///*[@id=\"root\"]/div[1]/div[3]/div[2]/div[1]/div[3]/div[2]/div[3]/form/div[1]/div[3]/div[2]/div/div[1]/div[2]",
+                "pierce/form > div:nth-of-type(1) > div:nth-of-type(3) div.css-ackcql"
+            ],
+            "offsetX": 75.65625,
+            "offsetY": 18,
+            "duration": 1000
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#react-select-5-option-3",
+                "xpath///*[@id=\"react-select-5-option-3\"]",
+                "pierce/#react-select-5-option-3"
+            ],
+            "offsetX": 90.65625,
+            "offsetY": 18
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "div.pb-8 > div:nth-of-type(1) div.css-ackcql",
+                "xpath///*[@id=\"root\"]/div[1]/div[3]/div[2]/div[1]/div[3]/div[2]/div[3]/form/div[1]/div[4]/div[1]/div[2]/div/div[1]/div[2]",
+                "pierce/div.pb-8 > div:nth-of-type(1) div.css-ackcql"
+            ],
+            "offsetX": 93.65625,
+            "offsetY": 20,
+            "duration": 1000
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#react-select-6-option-5",
+                "xpath///*[@id=\"react-select-6-option-5\"]",
+                "pierce/#react-select-6-option-5"
+            ],
+            "offsetX": 51.65625,
+            "offsetY": 18
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "div.pb-8 > div:nth-of-type(2) div.css-ackcql",
+                "xpath///*[@id=\"root\"]/div[1]/div[3]/div[2]/div[1]/div[3]/div[2]/div[3]/form/div[1]/div[4]/div[2]/div[2]/div/div[1]/div[2]",
+                "pierce/div.pb-8 > div:nth-of-type(2) div.css-ackcql"
+            ],
+            "offsetX": 28.328125,
+            "offsetY": 14,
+            "duration": 1000
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#react-select-7-option-0",
+                "xpath///*[@id=\"react-select-7-option-0\"]",
+                "pierce/#react-select-7-option-0"
+            ],
+            "offsetX": 46.328125,
+            "offsetY": 23
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "span.w-8",
+                "xpath///*[@id=\"root\"]/div[1]/div[3]/div[2]/div[1]/div[3]/div[2]/div[3]/form/div[2]/div/button/span[1]",
+                "pierce/span.w-8"
+            ],
+            "offsetX": 27.609375,
+            "offsetY": 6,
+            "duration": 1000
+        },
+        {
+            "type": "waitForExpression",
+            "expression": "new Promise(resolve => setTimeout(() => resolve(true), 5000))"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "div.col-span-2 div.css-ackcql",
+                "xpath///*[@mctest=\"select-0\"]/div/div/div[1]/div[2]",
+                "pierce/div.col-span-2 div.css-ackcql"
+            ],
+            "offsetX": 177,
+            "offsetY": 13,
+            "duration": 1000
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#react-select-2-option-3",
+                "xpath///*[@id=\"react-select-2-option-3\"]",
+                "pierce/#react-select-2-option-3"
+            ],
+            "offsetX": 200,
+            "offsetY": 25
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "[mctest='select-1'] > div > div",
+                "xpath///*[@mctest=\"select-1\"]/div/div",
+                "pierce/[mctest='select-1'] > div > div"
+            ],
+            "offsetX": 107.671875,
+            "offsetY": 0,
+            "duration": 1000
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#react-select-3-option-5"
+                ],
+                [
+                    "xpath///*[@id=\"react-select-3-option-5\"]"
+                ],
+                [
+                    "pierce/#react-select-3-option-5"
+                ]
+            ],
+            "offsetY": 10,
+            "offsetX": 60.671875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "[mctest='select-2'] > div > div",
+                "xpath///*[@mctest=\"select-2\"]/div/div",
+                "pierce/[mctest='select-2'] > div > div"
+            ],
+            "offsetX": 137.34375,
+            "offsetY": 0,
+            "duration": 1000
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#react-select-4-option-0"
+                ],
+                [
+                    "xpath///*[@id=\"react-select-4-option-0\"]"
+                ],
+                [
+                    "pierce/#react-select-4-option-0"
+                ]
+            ],
+            "offsetY": 21,
+            "offsetX": 90.34375
+        },
+        {
+            "type": "waitForElement",
+            "target": "main",
+            "selectors": [
+                "[mctest='fullname-0']",
+                "xpath///*[@mctest=\"fullname-0\"]",
+                "pierce/[mctest='fullname-0']",
+                "text/Tony Stark"
+            ]
+        }
+    ]
+}
