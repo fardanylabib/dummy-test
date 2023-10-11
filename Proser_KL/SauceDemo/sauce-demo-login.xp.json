@@ -1,0 +1,12 @@
+[
+	{
+		"selectors": [
+			"div.header_secondary_container > span",
+            "xpath///*[@id=\"header_container\"]/div[2]/span",
+            "pierce/div.header_secondary_container > span"
+		],
+		"value":{
+			"eq": "Products"
+		}
+	}
+]	

@@ -1,0 +1,137 @@
+{
+    "title": "sauce-demo",
+    "selectorAttribute": "data-testid",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1304,
+            "height": 691,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://www.saucedemo.com/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.saucedemo.com/",
+                    "title": "Swag Labs"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "[data-test='username']"
+                ],
+                [
+                    "xpath///*[@data-test=\"username\"]"
+                ],
+                [
+                    "pierce/[data-test='username']"
+                ],
+                [
+                    "aria/Username"
+                ]
+            ],
+            "offsetY": 27,
+            "offsetX": 34
+        },
+        {
+            "type": "change",
+            "value": "standard_user",
+            "selectors": [
+                [
+                    "[data-test='username']"
+                ],
+                [
+                    "xpath///*[@data-test=\"username\"]"
+                ],
+                [
+                    "pierce/[data-test='username']"
+                ],
+                [
+                    "aria/Username"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "[data-test='password']"
+                ],
+                [
+                    "xpath///*[@data-test=\"password\"]"
+                ],
+                [
+                    "pierce/[data-test='password']"
+                ],
+                [
+                    "aria/Password"
+                ]
+            ],
+            "offsetY": 20,
+            "offsetX": 49
+        },
+        {
+            "type": "change",
+            "value": "secret_sauce",
+            "selectors": [
+                [
+                    "[data-test='password']"
+                ],
+                [
+                    "xpath///*[@data-test=\"password\"]"
+                ],
+                [
+                    "pierce/[data-test='password']"
+                ],
+                [
+                    "aria/Password"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "[data-test='login-button']"
+                ],
+                [
+                    "xpath///*[@data-test=\"login-button\"]"
+                ],
+                [
+                    "pierce/[data-test='login-button']"
+                ],
+                [
+                    "aria/Login"
+                ],
+                [
+                    "text/Login"
+                ]
+            ],
+            "offsetY": 19,
+            "offsetX": 124
+        },
+        {
+            "type": "waitForElement",
+            "target": "main",
+            "selectors": [
+                "div.header_secondary_container > span",
+                "xpath///*[@id=\"header_container\"]/div[2]/span",
+                "pierce/div.header_secondary_container > span",
+                "text/Products"
+            ]
+        }
+    ]
+}
