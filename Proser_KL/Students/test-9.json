@@ -1,0 +1,164 @@
+{
+    "title": "test-20",
+    "selectorAttribute": "data-testid",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1287,
+            "height": 691,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://meracau.com/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://meracau.com/",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.pt-5 button"
+                ],
+                [
+                    "xpath//html/body/div/div[1]/div/div[2]/div/div[1]/div[2]/a/button"
+                ],
+                [
+                    "pierce/div.pt-5 button"
+                ],
+                [
+                    "aria/Create a Page[role=\"button\"]"
+                ],
+                [
+                    "text/Create a Page"
+                ]
+            ],
+            "offsetY": 23.859375,
+            "offsetX": 283.5
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "div.p-5 input",
+                "xpath///*[@id=\"scrolltop\"]/div/div[1]/div[2]/input",
+                "pierce/div.p-5 input"
+            ],
+            "value": "Test Page 200"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "pre"
+                ],
+                [
+                    "xpath///*[@id=\"scrolltop\"]/div/div[2]/div/div/div[2]/div[1]/div/div[6]/div[1]/div/div/div/div[5]/pre"
+                ],
+                [
+                    "pierce/pre"
+                ]
+            ],
+            "offsetY": 3,
+            "offsetX": 157
+        },
+        {
+            "type": "waitForExpression",
+            "expression": "new Promise(resolve => setTimeout(() => resolve(true), 2000))"
+        },
+        {
+            "type": "keyDown",
+            "key": "P"
+        },
+        {
+            "type": "keyDown",
+            "key": "a"
+        },
+        {
+            "type": "keyDown",
+            "key": "g"
+        },
+        {
+            "type": "keyDown",
+            "key": "e"
+        },
+        {
+            "type": "keyDown",
+            "key": "Space"
+        },
+        {
+            "type": "keyDown",
+            "key": "!"
+        },
+        {
+            "type": "keyDown",
+            "key": "?"
+        },
+        {
+            "type": "keyDown",
+            "key": "-"
+        },
+        {
+            "type": "keyDown",
+            "key": "_"
+        },
+        {
+            "type": "keyDown",
+            "key": "="
+        },
+        {
+            "type": "keyDown",
+            "key": "\""
+        },
+        {
+            "type": "keyDown",
+            "key": "'"
+        },
+        {
+            "type": "keyDown",
+            "key": "."
+        },
+        {
+            "type": "keyDown",
+            "key": "@"
+        },
+        {
+            "type": "keyDown",
+            "key": "#"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "button > div"
+                ],
+                [
+                    "xpath///*[@id=\"scrolltop\"]/button/div"
+                ],
+                [
+                    "pierce/button > div"
+                ],
+                [
+                    "aria/Save Changes",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "text/Save Changes"
+                ]
+            ],
+            "offsetY": 8,
+            "offsetX": 58.5
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+[
+	{
+		"selectors": [
+			"xpath//html/body/div/div[1]/div[2]/div/div[2]/div[1]/div/div/p"
+		],
+		"value":{
+			"eq": "Page !?-_=\"'.@#"
+		},
+	}
+]	
