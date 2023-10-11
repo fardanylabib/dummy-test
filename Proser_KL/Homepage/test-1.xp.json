@@ -1,8 +1,9 @@
 [
 	{
 		"selectors": [
-			"[mctest='page-label']",
-			"xpath///*[@mctest=\"page-label\"]"
+			"div.pl-56 div.text-white",
+			"xpath///*[@id=\"scrolltop\"]/div/div[1]/div[1]",
+			"pierce/div.pl-56 div.text-white",
 		],
 		"value":{
 			"eq": "Page Title"
@@ -10,8 +11,9 @@
 	},
 	{
 		"selectors": [
-			"[mctest='page-value']",
-			"xpath///*[@mctest=\"page-value\"]"
+			"div.p-5 input",
+			"xpath///*[@id=\"scrolltop\"]/div/div[1]/div[2]/input",
+			"pierce/div.p-5 input",
 		],
 		"value":{
 			"eq": "Test Meracau"
