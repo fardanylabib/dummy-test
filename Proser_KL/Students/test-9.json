@@ -159,6 +159,16 @@
             ],
             "offsetY": 8,
             "offsetX": 58.5
-        }
+        },
+		{
+			"type": "waitForElement",
+			"target": "main",
+			"selectors": [
+				"p",
+				"xpath//html/body/div/div[1]/div[2]/div/div[2]/div[1]/div/div/p",
+				"pierce/p",
+				"text/Page !?-_=\"'.@#"
+			]
+		}
     ]
 }
