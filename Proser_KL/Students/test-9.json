@@ -169,6 +169,10 @@
 				"pierce/p",
 				"text/Page !?-_=\"'.@#"
 			]
-		}
+		},
+        {
+            "type": "waitForExpression",
+            "expression": "new Promise(resolve => setTimeout(() => resolve(true), 2000))"
+        },
     ]
 }
