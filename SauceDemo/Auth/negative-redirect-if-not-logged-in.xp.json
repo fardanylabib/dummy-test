@@ -1,0 +1,12 @@
+[
+	{
+		"selectors": [
+			"[data-test='error']",
+			"xpath///*[@data-test=\"error\"]",
+			"pierce/[data-test='error']"
+		],
+		"value":{
+			"eq": "Epic sadface: You can only access '/cart.html' when you are logged in."
+		}
+	}
+]	

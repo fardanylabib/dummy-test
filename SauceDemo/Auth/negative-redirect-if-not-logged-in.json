@@ -1,0 +1,47 @@
+{
+    "title": "negative-redirect-if-not-logged-in",
+    "selectorAttribute": "data-testid",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1304,
+            "height": 691,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://www.saucedemo.com/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.saucedemo.com/",
+                    "title": "Swag Labs"
+                }
+            ]
+        },
+        {
+            "type": "navigate",
+            "url": "https://www.saucedemo.com/cart.html",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.saucedemo.com/cart.html",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "waitForElement",
+            "target": "main",
+            "selectors": [
+                "[data-test='error']",
+                "xpath///*[@data-test=\"error\"]",
+                "pierce/[data-test='error']",
+                "aria/Epic sadface: You can only access '/cart.html' when you are logged in."
+            ]
+        }
+    ]
+}

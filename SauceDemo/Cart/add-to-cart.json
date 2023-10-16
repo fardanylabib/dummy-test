@@ -1,0 +1,98 @@
+{
+    "title": "test-dev",
+    "selectorAttribute": "data-testid",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1287,
+            "height": 691,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://www.saucedemo.com/inventory.html",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.saucedemo.com/inventory.html",
+                    "title": "Swag Labs"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "[data-test='add-to-cart-sauce-labs-bolt-t-shirt']"
+                ],
+                [
+                    "xpath///*[@data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]"
+                ],
+                [
+                    "pierce/[data-test='add-to-cart-sauce-labs-bolt-t-shirt']"
+                ]
+            ],
+            "offsetY": 15,
+            "offsetX": 81.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#shopping_cart_container > a"
+                ],
+                [
+                    "xpath///*[@id=\"shopping_cart_container\"]/a"
+                ],
+                [
+                    "pierce/#shopping_cart_container > a"
+                ],
+                [
+                    "aria/3"
+                ]
+            ],
+            "offsetY": 19,
+            "offsetX": 15
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#item_1_title_link > div"
+                ],
+                [
+                    "xpath///*[@id=\"item_1_title_link\"]/div"
+                ],
+                [
+                    "pierce/#item_1_title_link > div"
+                ],
+                [
+                    "aria/Sauce Labs Bolt T-Shirt",
+                    "aria/[role=\"generic\"]"
+                ],
+                [
+                    "text/Sauce Labs Bolt"
+                ]
+            ],
+            "offsetY": 11,
+            "offsetX": 220
+        },
+        {
+            "type": "waitForElement",
+            "target": "main",
+            "selectors": [
+                "[data-test='back-to-products']",
+                "xpath///*[@data-test=\"back-to-products\"]",
+                "pierce/[data-test='back-to-products']",
+                "aria/Go back Back to products",
+                "text/Back to products"
+            ]
+        }
+    ]
+}
