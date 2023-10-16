@@ -1,0 +1,13 @@
+[
+	{
+		"selectors": [
+			 "#item_1_title_link > div",
+			"xpath///*[@id=\"item_1_title_link\"]/div",
+			"pierce/#item_1_title_link > div",
+			"text/Sauce Labs Bolt"
+		],
+		"value":{
+			"ne": "Sauce Labs Bolt T-Shirt"
+		}
+	}
+]	

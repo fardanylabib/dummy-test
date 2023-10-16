@@ -1,0 +1,59 @@
+{
+    "title": "cart-product-gone-after-add",
+    "selectorAttribute": "data-testid",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1287,
+            "height": 691,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://www.saucedemo.com/inventory-item.html?id=1",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.saucedemo.com/inventory-item.html?id=1",
+                    "title": "Swag Labs"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "[data-test='back-to-products']"
+                ],
+                [
+                    "xpath///*[@data-test=\"back-to-products\"]"
+                ],
+                [
+                    "pierce/[data-test='back-to-products']"
+                ],
+                [
+                    "aria/Go back Back to products"
+                ],
+                [
+                    "text/Back to products"
+                ]
+            ],
+            "offsetY": 14,
+            "offsetX": 87
+        },
+        {
+            "type": "waitForElement",
+            "target": "main",
+            "selectors": [
+                "div.header_secondary_container > span",
+                "xpath///*[@id=\"header_container\"]/div[2]/span",
+                "pierce/div.header_secondary_container > span",
+                "text/Products"
+            ]
+        }
+    ]
+}
