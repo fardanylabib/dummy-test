@@ -1,0 +1,137 @@
+{
+    "title": "remove-from-cart",
+    "selectorAttribute": "data-testid",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1287,
+            "height": 691,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://www.saucedemo.com/inventory.html",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.saucedemo.com/inventory.html",
+                    "title": "Swag Labs"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#shopping_cart_container > a"
+                ],
+                [
+                    "xpath///*[@id=\"shopping_cart_container\"]/a"
+                ],
+                [
+                    "pierce/#shopping_cart_container > a"
+                ],
+                [
+                    "aria/1"
+                ]
+            ],
+            "offsetY": 16,
+            "offsetX": 20
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "[data-test='remove-sauce-labs-backpack']"
+                ],
+                [
+                    "xpath///*[@data-test=\"remove-sauce-labs-backpack\"]"
+                ],
+                [
+                    "pierce/[data-test='remove-sauce-labs-backpack']"
+                ],
+                [
+                    "aria/Remove"
+                ],
+                [
+                    "text/Remove"
+                ]
+            ],
+            "offsetY": 13,
+            "offsetX": 95
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "[data-test='continue-shopping']"
+                ],
+                [
+                    "xpath///*[@data-test=\"continue-shopping\"]"
+                ],
+                [
+                    "pierce/[data-test='continue-shopping']"
+                ],
+                [
+                    "aria/Go back Continue Shopping"
+                ],
+                [
+                    "text/Continue Shopping"
+                ]
+            ],
+            "offsetY": 15,
+            "offsetX": 90
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#contents_wrapper > div:nth-of-type(2) > div > div"
+                ],
+                [
+                    "xpath///*[@id=\"inventory_container\"]"
+                ],
+                [
+                    "pierce/#contents_wrapper > div:nth-of-type(2) > div > div"
+                ]
+            ],
+            "offsetY": 263,
+            "offsetX": 1216,
+            "button": "secondary"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#contents_wrapper > div:nth-of-type(2) > div > div"
+                ],
+                [
+                    "xpath///*[@id=\"inventory_container\"]"
+                ],
+                [
+                    "pierce/#contents_wrapper > div:nth-of-type(2) > div > div"
+                ]
+            ],
+            "offsetY": 163,
+            "offsetX": 1230,
+            "button": "secondary"
+        },
+        {
+            "type": "waitForElement",
+            "target": "main",
+            "selectors": [
+                "[data-test='add-to-cart-sauce-labs-backpack']",
+                "xpath///*[@data-test=\"add-to-cart-sauce-labs-backpack\"]",
+                "pierce/[data-test='add-to-cart-sauce-labs-backpack']"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+[
+	{
+		"selectors": [
+			"[data-test='add-to-cart-sauce-labs-backpack']",
+                "xpath///*[@data-test=\"add-to-cart-sauce-labs-backpack\"]",
+                "pierce/[data-test='add-to-cart-sauce-labs-backpack']"
+		],
+		"value":{
+			"eq": "Add to cart"
+		}
+	},
+]	
